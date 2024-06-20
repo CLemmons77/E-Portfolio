@@ -180,6 +180,14 @@ LANDING PAGE
     z-index: 2;
 }
 
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .header__para {
     font-size: 24px;
     line-height: 2;
@@ -203,6 +211,19 @@ LANDING PAGE
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+}
+
+.header__img--wrapper {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 400px;
+    overflow: hidden;
+    border-radius: 10%;
+}
+
+.profile__img {
+    width: 100%;
 }
 
 .mail__btn {
@@ -669,6 +690,9 @@ SHAPES
     }
     .header__para {
         font-size: 20px;
+    }
+    .header__img--wrapper {
+        display: none;
     }
     .modal {
         top: 0;
